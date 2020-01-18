@@ -76,7 +76,7 @@ CREATE TABLE `totaldehoras` (
   `idAlumno` int(11) NOT NULL,
   `idAsistencia` int(11) NOT NULL,
   `Mes` varchar(100) NOT NULL,
-  `Total` int(11) NOT NULL
+  `Total` time NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
